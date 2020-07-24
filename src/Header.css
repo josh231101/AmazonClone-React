@@ -2,6 +2,9 @@
     background-color: #131921;
     display: flex;
     align-items: center;
+    position: sticky;
+    top : 0;
+    z-index: 100;
 }
 
 .header__logo{
@@ -11,6 +14,7 @@
     margin-right: 20px;
     margin-top: 18px;
 }
+/*This is the search part*/
 .header__search{
     display: flex;
     flex: 1;
@@ -26,4 +30,43 @@
     padding : 5px;
     height : 22px !important;
     background-color: #cd9042;
+}
+
+/*This is the white buttons before the search*/
+.header__nav{
+    display : flex;
+    justify-content: space-evenly;
+}
+
+.header__link{
+    display: flex;
+    color : white;
+    text-decoration: none;
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right : 10px;
+
+}
+
+/*Options of each button*/
+
+.header__optionLineOne{
+    font-size: 10px;
+}
+.header__optionLineTwo{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/*BASKET ICON*/
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+}
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
 }
