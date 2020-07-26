@@ -14,6 +14,7 @@ function Home() {
             {/*PRODUCTSSS */}
             <div className="home__row">
                 <Product 
+                    key="123456"
                     id="123456"
                     title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
                     price={11.96}
@@ -30,13 +31,15 @@ function Home() {
             </div>
             <div className="home__row">
                 <Product 
+                    key="657689"
                     id="657689"
                     title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
                     price={199.99}
                     rating={3}
                     image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
                     />  
-                    <Product 
+                    <Product
+                    key="145643" 
                     id="145643"
                     title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
                     price={98.99}
@@ -44,6 +47,7 @@ function Home() {
                     image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
                     />
                     <Product 
+                    key="456783"
                     id="456783"
                     title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
                     price={598.99}
@@ -53,6 +57,7 @@ function Home() {
             </div>
             <div className="home__row">
                 <Product 
+                    key="4567839"
                     id="4567839"
                     title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
                     price={1094.98}
